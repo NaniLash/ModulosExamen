@@ -338,29 +338,29 @@ const CardBody = () => {
         </div>
         <div className="row g-3 mb-2">
           <div className="col-12 d-flex justify-content-center align-items-center">
-            <div class="form-check form-check-inline">
+            <div className="form-check form-check-inline">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
                 id="inlineRadio1"
                 value="Si"
                 onChange={handleRespuestaChange}
               ></input>
-              <label class="form-check-label" for="inlineRadio1">
+              <label className="form-check-label" for="inlineRadio1">
                 Si
               </label>
             </div>
-            <div class="form-check form-check-inline">
+            <div className="form-check form-check-inline">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
                 id="inlineRadio2"
                 value="No"
                 onChange={handleRespuestaChange}
               ></input>
-              <label class="form-check-label" for="inlineRadio2">
+              <label className="form-check-label" for="inlineRadio2">
                 No
               </label>
             </div>
