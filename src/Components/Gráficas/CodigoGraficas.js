@@ -55,7 +55,7 @@ export function GraficoBarras() {
         type: "column",
       },
       title: {
-        text: "Gráfico de barras con Highcharts",
+        text: "Bingo",
       },
       xAxis: {
         categories: data1.map((item) => item.name),
@@ -152,7 +152,7 @@ export function GraficoLineas() {
         type: "line",
       },
       title: {
-        text: "Gráfica de líneas con Highcharts",
+        text: "Movilización",
       },
       xAxis: {
         categories: data1.map((item) => item.name),
